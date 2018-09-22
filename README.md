@@ -1,4 +1,4 @@
 # Mediagram
 iOS app for increasing likes, followers and reposts
 
-<img src="https://ibb.co/jjOzmp" width="280"> 
+<img src="https://preview.ibb.co/dLJX6p/gram.jpg" width="280"> 
