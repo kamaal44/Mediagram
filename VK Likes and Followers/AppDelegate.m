@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import <VK-ios-sdk/VKSdk.h>
+#import <Firebase.h>
+#import <VungleSDK/VungleSDK.h>
 
 @interface AppDelegate ()
 
@@ -14,12 +17,18 @@
 
 @implementation AppDelegate
 
-
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+- (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<NSString *,id> *)options {
+    [VKSdk processOpenURL:url fromApplication:options[UIApplicationOpenURLOptionsSourceApplicationKey]];
     return YES;
 }
 
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    [FIRApp configure];
+    NSString* appID = @"5977b978ba94bc777a002153";
+    VungleSDK* sdk = [VungleSDK sharedSDK];
+    [sdk startWithAppId:appID];
+    return YES;
+}
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

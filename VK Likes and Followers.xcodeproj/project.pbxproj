@@ -7,25 +7,151 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E11E2541F3B6EDA007E9BD8 /* MVTaskPerformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E11E2531F3B6EDA007E9BD8 /* MVTaskPerformer.m */; };
+		1E12DBE01F18FEFA0064BF8A /* MVPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E12DBDF1F18FEFA0064BF8A /* MVPhotoViewController.m */; };
+		1E12DBE51F18FF6E0064BF8A /* MVPostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E12DBE41F18FF6E0064BF8A /* MVPostViewController.m */; };
+		1E30029C1F17D55F0071FC4A /* MVPurchaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E30029B1F17D55F0071FC4A /* MVPurchaseViewController.m */; };
+		1E31CA8A1F336D1500416A12 /* MVIntermediateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E31CA891F336D1500416A12 /* MVIntermediateViewController.m */; };
+		1E37EEEE1F3683AD006800D5 /* MVLinguisticAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E37EEED1F3683AD006800D5 /* MVLinguisticAdapter.m */; };
+		1E3C729A1F39F94500BE0AA1 /* MVHideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3C72991F39F94500BE0AA1 /* MVHideViewController.m */; };
+		1E3C729E1F39FC6300BE0AA1 /* MVHideTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3C729D1F39FC6300BE0AA1 /* MVHideTableViewCell.m */; };
+		1E3C72AF1F3ABDC400BE0AA1 /* MVHidePost.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3C72AE1F3ABDC400BE0AA1 /* MVHidePost.m */; };
+		1E3C72B31F3AE0AE00BE0AA1 /* MVFakePurchaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3C72B21F3AE0AE00BE0AA1 /* MVFakePurchaseViewController.m */; };
+		1E3EE8971F32379200A0EDBB /* MVTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3EE8961F32379200A0EDBB /* MVTask.m */; };
+		1E5092091F0D4BF9000FE599 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5092081F0D4BF9000FE599 /* SWRevealViewController.m */; };
+		1E50920B1F0D4C0E000FE599 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1E50920A1F0D4C0E000FE599 /* GoogleService-Info.plist */; };
+		1E5CF3AE1F5A1DE80015C61C /* MVFakeMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5CF3AD1F5A1DE80015C61C /* MVFakeMenuViewController.m */; };
+		1E6285331F34D339006CF53D /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E6285321F34D339006CF53D /* StoreKit.framework */; };
+		1E6285361F352694006CF53D /* MVPurchaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6285351F352694006CF53D /* MVPurchaseCell.m */; };
+		1E719C361F28178D004E4701 /* tg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E719C351F28178C004E4701 /* tg.jpg */; };
 		1E818A911EC7D260004571D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E818A901EC7D260004571D8 /* main.m */; };
 		1E818A941EC7D260004571D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E818A931EC7D260004571D8 /* AppDelegate.m */; };
-		1E818A971EC7D260004571D8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E818A961EC7D260004571D8 /* ViewController.m */; };
 		1E818A9A1EC7D260004571D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E818A981EC7D260004571D8 /* Main.storyboard */; };
-		1E818A9C1EC7D260004571D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E818A9B1EC7D260004571D8 /* Assets.xcassets */; };
 		1E818A9F1EC7D260004571D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E818A9D1EC7D260004571D8 /* LaunchScreen.storyboard */; };
+		1E818AAC1EC7E0EE004571D8 /* MVLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E818AAB1EC7E0EE004571D8 /* MVLoginViewController.m */; };
+		1EA0ACB91F190B4D000A06AA /* MVPostTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EA0ACB81F190B4D000A06AA /* MVPostTableViewCell.m */; };
+		1EA0ACC21F1912BF000A06AA /* MVPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EA0ACC11F1912BF000A06AA /* MVPost.m */; };
+		1EBAFAB51F1AE4CE00713356 /* MVPresentPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EBAFAB41F1AE4CE00713356 /* MVPresentPhotoViewController.m */; };
+		1EBF2E021F152F3300E2E362 /* me.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1EBF2E011F152F3200E2E362 /* me.jpg */; };
+		1EDA28831F1AFD9700DA4E47 /* MVExchangeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EDA28821F1AFD9700DA4E47 /* MVExchangeTableViewCell.m */; };
+		1EDA28871F1AFF0A00DA4E47 /* MVOffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EDA28861F1AFF0A00DA4E47 /* MVOffer.m */; };
+		1EDA288B1F1B0E5E00DA4E47 /* MVPresentPostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EDA288A1F1B0E5E00DA4E47 /* MVPresentPostViewController.m */; };
+		1EDCC8571F198F9D001EE024 /* MVPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EDCC8561F198F9D001EE024 /* MVPhoto.m */; };
+		1EE423201F15895400919291 /* MVTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE4231F1F15895400919291 /* MVTableViewCell.m */; };
+		1EE61EFA1F199451001564F9 /* MVPhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE61EF91F199451001564F9 /* MVPhotoCollectionViewCell.m */; };
+		1EE8BA1E1F105F0400BB76E4 /* MVGetLikesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE8BA1D1F105F0400BB76E4 /* MVGetLikesViewController.m */; };
+		1EE8BA221F105FBD00BB76E4 /* MVGetRepostsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE8BA211F105FBD00BB76E4 /* MVGetRepostsViewController.m */; };
+		1EE8BA261F105FDA00BB76E4 /* MVGetFollowersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE8BA251F105FDA00BB76E4 /* MVGetFollowersViewController.m */; };
+		1EE8BA2A1F10601C00BB76E4 /* MVMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE8BA291F10601C00BB76E4 /* MVMenuViewController.m */; };
+		1EE8BA2E1F10606B00BB76E4 /* MVLikeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE8BA2D1F10606B00BB76E4 /* MVLikeViewController.m */; };
+		1EE8BA321F10608A00BB76E4 /* MVRepostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE8BA311F10608A00BB76E4 /* MVRepostViewController.m */; };
+		1EE8BA361F1060A200BB76E4 /* MVFollowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE8BA351F1060A200BB76E4 /* MVFollowViewController.m */; };
+		1EECBE401F30DFBA0060D6D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E18B3121F2FBB5200C10D48 /* Assets.xcassets */; };
+		1EF353341F18270800EBDD0F /* MVAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF353331F18270800EBDD0F /* MVAdViewController.m */; };
+		1EFBB7631F5C7A74005CAA42 /* MVFakePhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EFBB7621F5C7A74005CAA42 /* MVFakePhotoViewController.m */; };
+		1EFBB7671F5DD72F005CAA42 /* MVFakeFollowersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EFBB7661F5DD72F005CAA42 /* MVFakeFollowersViewController.m */; };
+		1EFBB76B1F5DD778005CAA42 /* MVFakeSubscriptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EFBB76A1F5DD778005CAA42 /* MVFakeSubscriptionsViewController.m */; };
+		1EFBB76F1F5DD7C3005CAA42 /* MVFakeAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EFBB76E1F5DD7C3005CAA42 /* MVFakeAdViewController.m */; };
+		1EFBB7731F5DD828005CAA42 /* MVFakeInAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EFBB7721F5DD828005CAA42 /* MVFakeInAppViewController.m */; };
+		1EFBB7771F5F1AC9005CAA42 /* MVProfileTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EFBB7761F5F1AC9005CAA42 /* MVProfileTableViewCell.m */; };
+		1EFDDB151F181D9600B780AF /* MVPerformTasksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EFDDB141F181D9600B780AF /* MVPerformTasksViewController.m */; };
+		E65B96A9EA4B1D8975FE7A29 /* libPods-VK Likes and Followers.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F4E723476544ABCE3F4753DC /* libPods-VK Likes and Followers.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E11E2521F3B6EDA007E9BD8 /* MVTaskPerformer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVTaskPerformer.h; sourceTree = "<group>"; };
+		1E11E2531F3B6EDA007E9BD8 /* MVTaskPerformer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVTaskPerformer.m; sourceTree = "<group>"; };
+		1E12DBDE1F18FEFA0064BF8A /* MVPhotoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVPhotoViewController.h; sourceTree = "<group>"; };
+		1E12DBDF1F18FEFA0064BF8A /* MVPhotoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVPhotoViewController.m; sourceTree = "<group>"; };
+		1E12DBE31F18FF6E0064BF8A /* MVPostViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVPostViewController.h; sourceTree = "<group>"; };
+		1E12DBE41F18FF6E0064BF8A /* MVPostViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVPostViewController.m; sourceTree = "<group>"; };
+		1E18B3121F2FBB5200C10D48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1E30029A1F17D55F0071FC4A /* MVPurchaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVPurchaseViewController.h; sourceTree = "<group>"; };
+		1E30029B1F17D55F0071FC4A /* MVPurchaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVPurchaseViewController.m; sourceTree = "<group>"; };
+		1E31CA881F336D1500416A12 /* MVIntermediateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVIntermediateViewController.h; sourceTree = "<group>"; };
+		1E31CA891F336D1500416A12 /* MVIntermediateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVIntermediateViewController.m; sourceTree = "<group>"; };
+		1E37EEEC1F3683AD006800D5 /* MVLinguisticAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVLinguisticAdapter.h; sourceTree = "<group>"; };
+		1E37EEED1F3683AD006800D5 /* MVLinguisticAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVLinguisticAdapter.m; sourceTree = "<group>"; };
+		1E3C72981F39F94500BE0AA1 /* MVHideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVHideViewController.h; sourceTree = "<group>"; };
+		1E3C72991F39F94500BE0AA1 /* MVHideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVHideViewController.m; sourceTree = "<group>"; };
+		1E3C729C1F39FC6300BE0AA1 /* MVHideTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVHideTableViewCell.h; sourceTree = "<group>"; };
+		1E3C729D1F39FC6300BE0AA1 /* MVHideTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVHideTableViewCell.m; sourceTree = "<group>"; };
+		1E3C72AD1F3ABDC400BE0AA1 /* MVHidePost.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVHidePost.h; sourceTree = "<group>"; };
+		1E3C72AE1F3ABDC400BE0AA1 /* MVHidePost.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVHidePost.m; sourceTree = "<group>"; };
+		1E3C72B11F3AE0AE00BE0AA1 /* MVFakePurchaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVFakePurchaseViewController.h; sourceTree = "<group>"; };
+		1E3C72B21F3AE0AE00BE0AA1 /* MVFakePurchaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVFakePurchaseViewController.m; sourceTree = "<group>"; };
+		1E3EE8951F32379200A0EDBB /* MVTask.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVTask.h; sourceTree = "<group>"; };
+		1E3EE8961F32379200A0EDBB /* MVTask.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVTask.m; sourceTree = "<group>"; };
+		1E5092071F0D4BF9000FE599 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = SWRevealViewController/SWRevealViewController.h; sourceTree = "<group>"; };
+		1E5092081F0D4BF9000FE599 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = SWRevealViewController/SWRevealViewController.m; sourceTree = "<group>"; };
+		1E50920A1F0D4C0E000FE599 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1E5CF3AC1F5A1DE80015C61C /* MVFakeMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVFakeMenuViewController.h; sourceTree = "<group>"; };
+		1E5CF3AD1F5A1DE80015C61C /* MVFakeMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVFakeMenuViewController.m; sourceTree = "<group>"; };
+		1E6285321F34D339006CF53D /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		1E6285341F352694006CF53D /* MVPurchaseCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVPurchaseCell.h; sourceTree = "<group>"; };
+		1E6285351F352694006CF53D /* MVPurchaseCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVPurchaseCell.m; sourceTree = "<group>"; };
+		1E719C351F28178C004E4701 /* tg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = tg.jpg; path = ../../../../Desktop/tg.jpg; sourceTree = "<group>"; };
 		1E818A8C1EC7D260004571D8 /* VK Likes and Followers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VK Likes and Followers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E818A901EC7D260004571D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1E818A921EC7D260004571D8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1E818A931EC7D260004571D8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1E818A951EC7D260004571D8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1E818A961EC7D260004571D8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1E818A991EC7D260004571D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1E818A9B1EC7D260004571D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E818A9E1EC7D260004571D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1E818AA01EC7D260004571D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E818AAA1EC7E0EE004571D8 /* MVLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVLoginViewController.h; sourceTree = "<group>"; };
+		1E818AAB1EC7E0EE004571D8 /* MVLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVLoginViewController.m; sourceTree = "<group>"; };
+		1EA0ACB71F190B4D000A06AA /* MVPostTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVPostTableViewCell.h; sourceTree = "<group>"; };
+		1EA0ACB81F190B4D000A06AA /* MVPostTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVPostTableViewCell.m; sourceTree = "<group>"; };
+		1EA0ACC01F1912BF000A06AA /* MVPost.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVPost.h; sourceTree = "<group>"; };
+		1EA0ACC11F1912BF000A06AA /* MVPost.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVPost.m; sourceTree = "<group>"; };
+		1EBAFAB31F1AE4CE00713356 /* MVPresentPhotoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVPresentPhotoViewController.h; sourceTree = "<group>"; };
+		1EBAFAB41F1AE4CE00713356 /* MVPresentPhotoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVPresentPhotoViewController.m; sourceTree = "<group>"; };
+		1EBF2E011F152F3200E2E362 /* me.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = me.jpg; path = ../../../../Desktop/me.jpg; sourceTree = "<group>"; };
+		1EDA28811F1AFD9700DA4E47 /* MVExchangeTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVExchangeTableViewCell.h; sourceTree = "<group>"; };
+		1EDA28821F1AFD9700DA4E47 /* MVExchangeTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVExchangeTableViewCell.m; sourceTree = "<group>"; };
+		1EDA28851F1AFF0A00DA4E47 /* MVOffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVOffer.h; sourceTree = "<group>"; };
+		1EDA28861F1AFF0A00DA4E47 /* MVOffer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVOffer.m; sourceTree = "<group>"; };
+		1EDA28891F1B0E5E00DA4E47 /* MVPresentPostViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVPresentPostViewController.h; sourceTree = "<group>"; };
+		1EDA288A1F1B0E5E00DA4E47 /* MVPresentPostViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVPresentPostViewController.m; sourceTree = "<group>"; };
+		1EDCC8551F198F9D001EE024 /* MVPhoto.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVPhoto.h; sourceTree = "<group>"; };
+		1EDCC8561F198F9D001EE024 /* MVPhoto.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVPhoto.m; sourceTree = "<group>"; };
+		1EE4231E1F15895400919291 /* MVTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVTableViewCell.h; sourceTree = "<group>"; };
+		1EE4231F1F15895400919291 /* MVTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVTableViewCell.m; sourceTree = "<group>"; };
+		1EE61EF81F199451001564F9 /* MVPhotoCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVPhotoCollectionViewCell.h; sourceTree = "<group>"; };
+		1EE61EF91F199451001564F9 /* MVPhotoCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVPhotoCollectionViewCell.m; sourceTree = "<group>"; };
+		1EE8BA1C1F105F0400BB76E4 /* MVGetLikesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVGetLikesViewController.h; sourceTree = "<group>"; };
+		1EE8BA1D1F105F0400BB76E4 /* MVGetLikesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVGetLikesViewController.m; sourceTree = "<group>"; };
+		1EE8BA201F105FBD00BB76E4 /* MVGetRepostsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVGetRepostsViewController.h; sourceTree = "<group>"; };
+		1EE8BA211F105FBD00BB76E4 /* MVGetRepostsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVGetRepostsViewController.m; sourceTree = "<group>"; };
+		1EE8BA241F105FDA00BB76E4 /* MVGetFollowersViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVGetFollowersViewController.h; sourceTree = "<group>"; };
+		1EE8BA251F105FDA00BB76E4 /* MVGetFollowersViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVGetFollowersViewController.m; sourceTree = "<group>"; };
+		1EE8BA281F10601C00BB76E4 /* MVMenuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVMenuViewController.h; sourceTree = "<group>"; };
+		1EE8BA291F10601C00BB76E4 /* MVMenuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVMenuViewController.m; sourceTree = "<group>"; };
+		1EE8BA2C1F10606B00BB76E4 /* MVLikeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVLikeViewController.h; sourceTree = "<group>"; };
+		1EE8BA2D1F10606B00BB76E4 /* MVLikeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVLikeViewController.m; sourceTree = "<group>"; };
+		1EE8BA301F10608A00BB76E4 /* MVRepostViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVRepostViewController.h; sourceTree = "<group>"; };
+		1EE8BA311F10608A00BB76E4 /* MVRepostViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVRepostViewController.m; sourceTree = "<group>"; };
+		1EE8BA341F1060A200BB76E4 /* MVFollowViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVFollowViewController.h; sourceTree = "<group>"; };
+		1EE8BA351F1060A200BB76E4 /* MVFollowViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVFollowViewController.m; sourceTree = "<group>"; };
+		1EF353321F18270800EBDD0F /* MVAdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVAdViewController.h; sourceTree = "<group>"; };
+		1EF353331F18270800EBDD0F /* MVAdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVAdViewController.m; sourceTree = "<group>"; };
+		1EFBB7611F5C7A74005CAA42 /* MVFakePhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVFakePhotoViewController.h; sourceTree = "<group>"; };
+		1EFBB7621F5C7A74005CAA42 /* MVFakePhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVFakePhotoViewController.m; sourceTree = "<group>"; };
+		1EFBB7651F5DD72F005CAA42 /* MVFakeFollowersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVFakeFollowersViewController.h; sourceTree = "<group>"; };
+		1EFBB7661F5DD72F005CAA42 /* MVFakeFollowersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVFakeFollowersViewController.m; sourceTree = "<group>"; };
+		1EFBB7691F5DD778005CAA42 /* MVFakeSubscriptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVFakeSubscriptionsViewController.h; sourceTree = "<group>"; };
+		1EFBB76A1F5DD778005CAA42 /* MVFakeSubscriptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVFakeSubscriptionsViewController.m; sourceTree = "<group>"; };
+		1EFBB76D1F5DD7C3005CAA42 /* MVFakeAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVFakeAdViewController.h; sourceTree = "<group>"; };
+		1EFBB76E1F5DD7C3005CAA42 /* MVFakeAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVFakeAdViewController.m; sourceTree = "<group>"; };
+		1EFBB7711F5DD828005CAA42 /* MVFakeInAppViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVFakeInAppViewController.h; sourceTree = "<group>"; };
+		1EFBB7721F5DD828005CAA42 /* MVFakeInAppViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVFakeInAppViewController.m; sourceTree = "<group>"; };
+		1EFBB7751F5F1AC9005CAA42 /* MVProfileTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVProfileTableViewCell.h; sourceTree = "<group>"; };
+		1EFBB7761F5F1AC9005CAA42 /* MVProfileTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVProfileTableViewCell.m; sourceTree = "<group>"; };
+		1EFDDB131F181D9600B780AF /* MVPerformTasksViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVPerformTasksViewController.h; sourceTree = "<group>"; };
+		1EFDDB141F181D9600B780AF /* MVPerformTasksViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVPerformTasksViewController.m; sourceTree = "<group>"; };
+		C4AECDEAECBF3EE97E4111A0 /* Pods-VK Likes and Followers.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VK Likes and Followers.release.xcconfig"; path = "Pods/Target Support Files/Pods-VK Likes and Followers/Pods-VK Likes and Followers.release.xcconfig"; sourceTree = "<group>"; };
+		C64EDAA07F63E14EE405D8ED /* Pods-VK Likes and Followers.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VK Likes and Followers.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VK Likes and Followers/Pods-VK Likes and Followers.debug.xcconfig"; sourceTree = "<group>"; };
+		F4E723476544ABCE3F4753DC /* libPods-VK Likes and Followers.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VK Likes and Followers.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +159,156 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E65B96A9EA4B1D8975FE7A29 /* libPods-VK Likes and Followers.a in Frameworks */,
+				1E6285331F34D339006CF53D /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1323C71DE103852E25D482B5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C64EDAA07F63E14EE405D8ED /* Pods-VK Likes and Followers.debug.xcconfig */,
+				C4AECDEAECBF3EE97E4111A0 /* Pods-VK Likes and Followers.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1E11E2551F3B6EDF007E9BD8 /* MVTaskPerformer */ = {
+			isa = PBXGroup;
+			children = (
+				1E11E2521F3B6EDA007E9BD8 /* MVTaskPerformer.h */,
+				1E11E2531F3B6EDA007E9BD8 /* MVTaskPerformer.m */,
+			);
+			path = MVTaskPerformer;
+			sourceTree = "<group>";
+		};
+		1E12DBE21F18FF3C0064BF8A /* MVPhotoViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1E12DBDE1F18FEFA0064BF8A /* MVPhotoViewController.h */,
+				1E12DBDF1F18FEFA0064BF8A /* MVPhotoViewController.m */,
+			);
+			path = MVPhotoViewController;
+			sourceTree = "<group>";
+		};
+		1E12DBE61F18FF720064BF8A /* MVPostViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1E12DBE31F18FF6E0064BF8A /* MVPostViewController.h */,
+				1E12DBE41F18FF6E0064BF8A /* MVPostViewController.m */,
+			);
+			path = MVPostViewController;
+			sourceTree = "<group>";
+		};
+		1E30029D1F17D5630071FC4A /* MVPurchaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1E30029A1F17D55F0071FC4A /* MVPurchaseViewController.h */,
+				1E30029B1F17D55F0071FC4A /* MVPurchaseViewController.m */,
+			);
+			path = MVPurchaseViewController;
+			sourceTree = "<group>";
+		};
+		1E31CA8B1F336D1D00416A12 /* MVIntermediateViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1E31CA881F336D1500416A12 /* MVIntermediateViewController.h */,
+				1E31CA891F336D1500416A12 /* MVIntermediateViewController.m */,
+			);
+			path = MVIntermediateViewController;
+			sourceTree = "<group>";
+		};
+		1E37EEEF1F3683B2006800D5 /* MVLinguisticAdapter */ = {
+			isa = PBXGroup;
+			children = (
+				1E37EEEC1F3683AD006800D5 /* MVLinguisticAdapter.h */,
+				1E37EEED1F3683AD006800D5 /* MVLinguisticAdapter.m */,
+			);
+			path = MVLinguisticAdapter;
+			sourceTree = "<group>";
+		};
+		1E3C729B1F39F94D00BE0AA1 /* MVHideViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1E3C72981F39F94500BE0AA1 /* MVHideViewController.h */,
+				1E3C72991F39F94500BE0AA1 /* MVHideViewController.m */,
+			);
+			path = MVHideViewController;
+			sourceTree = "<group>";
+		};
+		1E3C729F1F39FC6800BE0AA1 /* MVHideTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				1E3C729C1F39FC6300BE0AA1 /* MVHideTableViewCell.h */,
+				1E3C729D1F39FC6300BE0AA1 /* MVHideTableViewCell.m */,
+			);
+			path = MVHideTableViewCell;
+			sourceTree = "<group>";
+		};
+		1E3C72B01F3ABDC900BE0AA1 /* MVHidePost */ = {
+			isa = PBXGroup;
+			children = (
+				1E3C72AD1F3ABDC400BE0AA1 /* MVHidePost.h */,
+				1E3C72AE1F3ABDC400BE0AA1 /* MVHidePost.m */,
+			);
+			path = MVHidePost;
+			sourceTree = "<group>";
+		};
+		1E3C72B41F3AE0B600BE0AA1 /* MVFakePurchaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1E3C72B11F3AE0AE00BE0AA1 /* MVFakePurchaseViewController.h */,
+				1E3C72B21F3AE0AE00BE0AA1 /* MVFakePurchaseViewController.m */,
+			);
+			path = MVFakePurchaseViewController;
+			sourceTree = "<group>";
+		};
+		1E3EE8981F32380600A0EDBB /* MVTask */ = {
+			isa = PBXGroup;
+			children = (
+				1E3EE8951F32379200A0EDBB /* MVTask.h */,
+				1E3EE8961F32379200A0EDBB /* MVTask.m */,
+			);
+			path = MVTask;
+			sourceTree = "<group>";
+		};
+		1E5092061F0D4BEC000FE599 /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1E5092071F0D4BF9000FE599 /* SWRevealViewController.h */,
+				1E5092081F0D4BF9000FE599 /* SWRevealViewController.m */,
+			);
+			name = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+		1E5CF3AF1F5A1DED0015C61C /* MVFakeMenuViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1E5CF3AC1F5A1DE80015C61C /* MVFakeMenuViewController.h */,
+				1E5CF3AD1F5A1DE80015C61C /* MVFakeMenuViewController.m */,
+			);
+			name = MVFakeMenuViewController;
+			sourceTree = "<group>";
+		};
+		1E6285371F35269B006CF53D /* MVPurchaseCell */ = {
+			isa = PBXGroup;
+			children = (
+				1E6285341F352694006CF53D /* MVPurchaseCell.h */,
+				1E6285351F352694006CF53D /* MVPurchaseCell.m */,
+			);
+			path = MVPurchaseCell;
+			sourceTree = "<group>";
+		};
 		1E818A831EC7D25F004571D8 = {
 			isa = PBXGroup;
 			children = (
 				1E818A8E1EC7D260004571D8 /* VK Likes and Followers */,
 				1E818A8D1EC7D260004571D8 /* Products */,
+				1323C71DE103852E25D482B5 /* Pods */,
+				F2F76670CA77B8457997D45D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,15 +323,52 @@
 		1E818A8E1EC7D260004571D8 /* VK Likes and Followers */ = {
 			isa = PBXGroup;
 			children = (
-				1E818A921EC7D260004571D8 /* AppDelegate.h */,
-				1E818A931EC7D260004571D8 /* AppDelegate.m */,
-				1E818A951EC7D260004571D8 /* ViewController.h */,
-				1E818A961EC7D260004571D8 /* ViewController.m */,
+				1E18B3121F2FBB5200C10D48 /* Assets.xcassets */,
+				1EFBB7641F5C7A79005CAA42 /* MVFakePhotoViewController */,
+				1E12DBE21F18FF3C0064BF8A /* MVPhotoViewController */,
+				1EBF2E001F152F2400E2E362 /* Resource */,
+				1E50920A1F0D4C0E000FE599 /* GoogleService-Info.plist */,
+				1E5092061F0D4BEC000FE599 /* SWRevealViewController */,
+				1EE8BA1B1F105ED300BB76E4 /* MVLoginViewController */,
 				1E818A981EC7D260004571D8 /* Main.storyboard */,
-				1E818A9B1EC7D260004571D8 /* Assets.xcassets */,
 				1E818A9D1EC7D260004571D8 /* LaunchScreen.storyboard */,
 				1E818AA01EC7D260004571D8 /* Info.plist */,
 				1E818A8F1EC7D260004571D8 /* Supporting Files */,
+				1EE8BA1F1F105F0800BB76E4 /* MVGetLikesViewController */,
+				1EE8BA231F105FC200BB76E4 /* MVGetRepostsViewController */,
+				1EE8BA271F105FDD00BB76E4 /* MVGetFollowersViewController */,
+				1E5CF3AF1F5A1DED0015C61C /* MVFakeMenuViewController */,
+				1EE8BA2B1F10602000BB76E4 /* MVMenuViewController */,
+				1EE8BA2F1F10607000BB76E4 /* MVLikeViewController */,
+				1EE8BA331F10608D00BB76E4 /* MVRepostViewController */,
+				1EE8BA371F1060A600BB76E4 /* MVFollowViewController */,
+				1EE423221F15896E00919291 /* MVTableViewCell */,
+				1E30029D1F17D5630071FC4A /* MVPurchaseViewController */,
+				1EFDDB161F181D9E00B780AF /* MVPerformTasksViewController */,
+				1EF353351F18270C00EBDD0F /* MVAdViewController */,
+				1E12DBE61F18FF720064BF8A /* MVPostViewController */,
+				1EA0ACBA1F190B51000A06AA /* MVPostTableViewCell */,
+				1EA0ACC31F1915F6000A06AA /* MVPost */,
+				1EDCC8581F198FA1001EE024 /* MVPhoto */,
+				1EE61EFB1F199455001564F9 /* MVPhotoCollectionViewCell */,
+				1EBAFAB61F1AE4D200713356 /* MVPresentPhotoViewController */,
+				1EDA28841F1AFD9B00DA4E47 /* MVExchangeTableViewCell */,
+				1EDA28881F1AFF5400DA4E47 /* MVOffer */,
+				1EDA288C1F1B0E6100DA4E47 /* MVPresentPostViewController */,
+				1E3EE8981F32380600A0EDBB /* MVTask */,
+				1E31CA8B1F336D1D00416A12 /* MVIntermediateViewController */,
+				1E6285371F35269B006CF53D /* MVPurchaseCell */,
+				1E37EEEF1F3683B2006800D5 /* MVLinguisticAdapter */,
+				1E3C729B1F39F94D00BE0AA1 /* MVHideViewController */,
+				1E3C729F1F39FC6800BE0AA1 /* MVHideTableViewCell */,
+				1E3C72B01F3ABDC900BE0AA1 /* MVHidePost */,
+				1E3C72B41F3AE0B600BE0AA1 /* MVFakePurchaseViewController */,
+				1E11E2551F3B6EDF007E9BD8 /* MVTaskPerformer */,
+				1EFBB7681F5DD735005CAA42 /* MVFakeFollowersViewController */,
+				1EFBB76C1F5DD77E005CAA42 /* MVFakeSubscriptionsViewController */,
+				1EFBB7701F5DD7C8005CAA42 /* MVFakeAdViewController */,
+				1EFBB7741F5DD82E005CAA42 /* MVFakeInAppViewController */,
+				1EFBB7781F5F1ACE005CAA42 /* MVProfileTableViewCell */,
 			);
 			path = "VK Likes and Followers";
 			sourceTree = "<group>";
@@ -74,9 +376,254 @@
 		1E818A8F1EC7D260004571D8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1E818A921EC7D260004571D8 /* AppDelegate.h */,
+				1E818A931EC7D260004571D8 /* AppDelegate.m */,
 				1E818A901EC7D260004571D8 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1EA0ACBA1F190B51000A06AA /* MVPostTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				1EA0ACB71F190B4D000A06AA /* MVPostTableViewCell.h */,
+				1EA0ACB81F190B4D000A06AA /* MVPostTableViewCell.m */,
+			);
+			path = MVPostTableViewCell;
+			sourceTree = "<group>";
+		};
+		1EA0ACC31F1915F6000A06AA /* MVPost */ = {
+			isa = PBXGroup;
+			children = (
+				1EA0ACC01F1912BF000A06AA /* MVPost.h */,
+				1EA0ACC11F1912BF000A06AA /* MVPost.m */,
+			);
+			path = MVPost;
+			sourceTree = "<group>";
+		};
+		1EBAFAB61F1AE4D200713356 /* MVPresentPhotoViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1EBAFAB31F1AE4CE00713356 /* MVPresentPhotoViewController.h */,
+				1EBAFAB41F1AE4CE00713356 /* MVPresentPhotoViewController.m */,
+			);
+			path = MVPresentPhotoViewController;
+			sourceTree = "<group>";
+		};
+		1EBF2E001F152F2400E2E362 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				1E719C351F28178C004E4701 /* tg.jpg */,
+				1EBF2E011F152F3200E2E362 /* me.jpg */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		1EDA28841F1AFD9B00DA4E47 /* MVExchangeTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				1EDA28811F1AFD9700DA4E47 /* MVExchangeTableViewCell.h */,
+				1EDA28821F1AFD9700DA4E47 /* MVExchangeTableViewCell.m */,
+			);
+			path = MVExchangeTableViewCell;
+			sourceTree = "<group>";
+		};
+		1EDA28881F1AFF5400DA4E47 /* MVOffer */ = {
+			isa = PBXGroup;
+			children = (
+				1EDA28851F1AFF0A00DA4E47 /* MVOffer.h */,
+				1EDA28861F1AFF0A00DA4E47 /* MVOffer.m */,
+			);
+			path = MVOffer;
+			sourceTree = "<group>";
+		};
+		1EDA288C1F1B0E6100DA4E47 /* MVPresentPostViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1EDA28891F1B0E5E00DA4E47 /* MVPresentPostViewController.h */,
+				1EDA288A1F1B0E5E00DA4E47 /* MVPresentPostViewController.m */,
+			);
+			path = MVPresentPostViewController;
+			sourceTree = "<group>";
+		};
+		1EDCC8581F198FA1001EE024 /* MVPhoto */ = {
+			isa = PBXGroup;
+			children = (
+				1EDCC8551F198F9D001EE024 /* MVPhoto.h */,
+				1EDCC8561F198F9D001EE024 /* MVPhoto.m */,
+			);
+			path = MVPhoto;
+			sourceTree = "<group>";
+		};
+		1EE423221F15896E00919291 /* MVTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				1EE4231E1F15895400919291 /* MVTableViewCell.h */,
+				1EE4231F1F15895400919291 /* MVTableViewCell.m */,
+			);
+			path = MVTableViewCell;
+			sourceTree = "<group>";
+		};
+		1EE61EFB1F199455001564F9 /* MVPhotoCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				1EE61EF81F199451001564F9 /* MVPhotoCollectionViewCell.h */,
+				1EE61EF91F199451001564F9 /* MVPhotoCollectionViewCell.m */,
+			);
+			path = MVPhotoCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		1EE8BA1B1F105ED300BB76E4 /* MVLoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1E818AAA1EC7E0EE004571D8 /* MVLoginViewController.h */,
+				1E818AAB1EC7E0EE004571D8 /* MVLoginViewController.m */,
+			);
+			path = MVLoginViewController;
+			sourceTree = "<group>";
+		};
+		1EE8BA1F1F105F0800BB76E4 /* MVGetLikesViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1EE8BA1C1F105F0400BB76E4 /* MVGetLikesViewController.h */,
+				1EE8BA1D1F105F0400BB76E4 /* MVGetLikesViewController.m */,
+			);
+			path = MVGetLikesViewController;
+			sourceTree = "<group>";
+		};
+		1EE8BA231F105FC200BB76E4 /* MVGetRepostsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1EE8BA201F105FBD00BB76E4 /* MVGetRepostsViewController.h */,
+				1EE8BA211F105FBD00BB76E4 /* MVGetRepostsViewController.m */,
+			);
+			path = MVGetRepostsViewController;
+			sourceTree = "<group>";
+		};
+		1EE8BA271F105FDD00BB76E4 /* MVGetFollowersViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1EE8BA241F105FDA00BB76E4 /* MVGetFollowersViewController.h */,
+				1EE8BA251F105FDA00BB76E4 /* MVGetFollowersViewController.m */,
+			);
+			path = MVGetFollowersViewController;
+			sourceTree = "<group>";
+		};
+		1EE8BA2B1F10602000BB76E4 /* MVMenuViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1EE8BA281F10601C00BB76E4 /* MVMenuViewController.h */,
+				1EE8BA291F10601C00BB76E4 /* MVMenuViewController.m */,
+			);
+			path = MVMenuViewController;
+			sourceTree = "<group>";
+		};
+		1EE8BA2F1F10607000BB76E4 /* MVLikeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1EE8BA2C1F10606B00BB76E4 /* MVLikeViewController.h */,
+				1EE8BA2D1F10606B00BB76E4 /* MVLikeViewController.m */,
+			);
+			path = MVLikeViewController;
+			sourceTree = "<group>";
+		};
+		1EE8BA331F10608D00BB76E4 /* MVRepostViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1EE8BA301F10608A00BB76E4 /* MVRepostViewController.h */,
+				1EE8BA311F10608A00BB76E4 /* MVRepostViewController.m */,
+			);
+			path = MVRepostViewController;
+			sourceTree = "<group>";
+		};
+		1EE8BA371F1060A600BB76E4 /* MVFollowViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1EE8BA341F1060A200BB76E4 /* MVFollowViewController.h */,
+				1EE8BA351F1060A200BB76E4 /* MVFollowViewController.m */,
+			);
+			path = MVFollowViewController;
+			sourceTree = "<group>";
+		};
+		1EF353351F18270C00EBDD0F /* MVAdViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1EF353321F18270800EBDD0F /* MVAdViewController.h */,
+				1EF353331F18270800EBDD0F /* MVAdViewController.m */,
+			);
+			path = MVAdViewController;
+			sourceTree = "<group>";
+		};
+		1EFBB7641F5C7A79005CAA42 /* MVFakePhotoViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1EFBB7611F5C7A74005CAA42 /* MVFakePhotoViewController.h */,
+				1EFBB7621F5C7A74005CAA42 /* MVFakePhotoViewController.m */,
+			);
+			name = MVFakePhotoViewController;
+			sourceTree = "<group>";
+		};
+		1EFBB7681F5DD735005CAA42 /* MVFakeFollowersViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1EFBB7651F5DD72F005CAA42 /* MVFakeFollowersViewController.h */,
+				1EFBB7661F5DD72F005CAA42 /* MVFakeFollowersViewController.m */,
+			);
+			name = MVFakeFollowersViewController;
+			sourceTree = "<group>";
+		};
+		1EFBB76C1F5DD77E005CAA42 /* MVFakeSubscriptionsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1EFBB7691F5DD778005CAA42 /* MVFakeSubscriptionsViewController.h */,
+				1EFBB76A1F5DD778005CAA42 /* MVFakeSubscriptionsViewController.m */,
+			);
+			name = MVFakeSubscriptionsViewController;
+			sourceTree = "<group>";
+		};
+		1EFBB7701F5DD7C8005CAA42 /* MVFakeAdViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1EFBB76D1F5DD7C3005CAA42 /* MVFakeAdViewController.h */,
+				1EFBB76E1F5DD7C3005CAA42 /* MVFakeAdViewController.m */,
+			);
+			name = MVFakeAdViewController;
+			sourceTree = "<group>";
+		};
+		1EFBB7741F5DD82E005CAA42 /* MVFakeInAppViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1EFBB7711F5DD828005CAA42 /* MVFakeInAppViewController.h */,
+				1EFBB7721F5DD828005CAA42 /* MVFakeInAppViewController.m */,
+			);
+			name = MVFakeInAppViewController;
+			sourceTree = "<group>";
+		};
+		1EFBB7781F5F1ACE005CAA42 /* MVProfileTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				1EFBB7751F5F1AC9005CAA42 /* MVProfileTableViewCell.h */,
+				1EFBB7761F5F1AC9005CAA42 /* MVProfileTableViewCell.m */,
+			);
+			name = MVProfileTableViewCell;
+			sourceTree = "<group>";
+		};
+		1EFDDB161F181D9E00B780AF /* MVPerformTasksViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1EFDDB131F181D9600B780AF /* MVPerformTasksViewController.h */,
+				1EFDDB141F181D9600B780AF /* MVPerformTasksViewController.m */,
+			);
+			path = MVPerformTasksViewController;
+			sourceTree = "<group>";
+		};
+		F2F76670CA77B8457997D45D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1E6285321F34D339006CF53D /* StoreKit.framework */,
+				F4E723476544ABCE3F4753DC /* libPods-VK Likes and Followers.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,9 +633,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1E818AA31EC7D260004571D8 /* Build configuration list for PBXNativeTarget "VK Likes and Followers" */;
 			buildPhases = (
+				255CF6A132262CF9CEC25FAF /* [CP] Check Pods Manifest.lock */,
 				1E818A881EC7D25F004571D8 /* Sources */,
 				1E818A891EC7D25F004571D8 /* Frameworks */,
 				1E818A8A1EC7D25F004571D8 /* Resources */,
+				03E18422BDC2C2706237AEE8 /* [CP] Embed Pods Frameworks */,
+				441BDFD98A72BF4CBC26A6D2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -105,13 +655,18 @@
 		1E818A841EC7D25F004571D8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Mountain Viewer";
 				TargetAttributes = {
 					1E818A8B1EC7D25F004571D8 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 7544MQP9KA;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -138,22 +693,111 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EBF2E021F152F3300E2E362 /* me.jpg in Resources */,
 				1E818A9F1EC7D260004571D8 /* LaunchScreen.storyboard in Resources */,
-				1E818A9C1EC7D260004571D8 /* Assets.xcassets in Resources */,
+				1E50920B1F0D4C0E000FE599 /* GoogleService-Info.plist in Resources */,
+				1E719C361F28178D004E4701 /* tg.jpg in Resources */,
+				1EECBE401F30DFBA0060D6D0 /* Assets.xcassets in Resources */,
 				1E818A9A1EC7D260004571D8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		03E18422BDC2C2706237AEE8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VK Likes and Followers/Pods-VK Likes and Followers-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		255CF6A132262CF9CEC25FAF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		441BDFD98A72BF4CBC26A6D2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VK Likes and Followers/Pods-VK Likes and Followers-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1E818A881EC7D25F004571D8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E818A971EC7D260004571D8 /* ViewController.m in Sources */,
+				1E30029C1F17D55F0071FC4A /* MVPurchaseViewController.m in Sources */,
+				1EDA28871F1AFF0A00DA4E47 /* MVOffer.m in Sources */,
+				1EDCC8571F198F9D001EE024 /* MVPhoto.m in Sources */,
+				1E37EEEE1F3683AD006800D5 /* MVLinguisticAdapter.m in Sources */,
+				1EFBB7671F5DD72F005CAA42 /* MVFakeFollowersViewController.m in Sources */,
+				1EE8BA2A1F10601C00BB76E4 /* MVMenuViewController.m in Sources */,
+				1E5CF3AE1F5A1DE80015C61C /* MVFakeMenuViewController.m in Sources */,
+				1EA0ACB91F190B4D000A06AA /* MVPostTableViewCell.m in Sources */,
+				1E6285361F352694006CF53D /* MVPurchaseCell.m in Sources */,
+				1EA0ACC21F1912BF000A06AA /* MVPost.m in Sources */,
+				1EE8BA261F105FDA00BB76E4 /* MVGetFollowersViewController.m in Sources */,
+				1EBAFAB51F1AE4CE00713356 /* MVPresentPhotoViewController.m in Sources */,
+				1E3C72AF1F3ABDC400BE0AA1 /* MVHidePost.m in Sources */,
+				1E31CA8A1F336D1500416A12 /* MVIntermediateViewController.m in Sources */,
+				1EE61EFA1F199451001564F9 /* MVPhotoCollectionViewCell.m in Sources */,
+				1EFBB76B1F5DD778005CAA42 /* MVFakeSubscriptionsViewController.m in Sources */,
+				1EFBB76F1F5DD7C3005CAA42 /* MVFakeAdViewController.m in Sources */,
+				1E3C72B31F3AE0AE00BE0AA1 /* MVFakePurchaseViewController.m in Sources */,
+				1EE8BA1E1F105F0400BB76E4 /* MVGetLikesViewController.m in Sources */,
+				1E818AAC1EC7E0EE004571D8 /* MVLoginViewController.m in Sources */,
+				1E5092091F0D4BF9000FE599 /* SWRevealViewController.m in Sources */,
+				1E3C729E1F39FC6300BE0AA1 /* MVHideTableViewCell.m in Sources */,
+				1E11E2541F3B6EDA007E9BD8 /* MVTaskPerformer.m in Sources */,
+				1EFBB7731F5DD828005CAA42 /* MVFakeInAppViewController.m in Sources */,
+				1EFDDB151F181D9600B780AF /* MVPerformTasksViewController.m in Sources */,
+				1EE8BA2E1F10606B00BB76E4 /* MVLikeViewController.m in Sources */,
+				1E3C729A1F39F94500BE0AA1 /* MVHideViewController.m in Sources */,
+				1EE8BA321F10608A00BB76E4 /* MVRepostViewController.m in Sources */,
+				1EE8BA361F1060A200BB76E4 /* MVFollowViewController.m in Sources */,
 				1E818A941EC7D260004571D8 /* AppDelegate.m in Sources */,
 				1E818A911EC7D260004571D8 /* main.m in Sources */,
+				1EE423201F15895400919291 /* MVTableViewCell.m in Sources */,
+				1EE8BA221F105FBD00BB76E4 /* MVGetRepostsViewController.m in Sources */,
+				1EDA28831F1AFD9700DA4E47 /* MVExchangeTableViewCell.m in Sources */,
+				1E12DBE01F18FEFA0064BF8A /* MVPhotoViewController.m in Sources */,
+				1EDA288B1F1B0E5E00DA4E47 /* MVPresentPostViewController.m in Sources */,
+				1E3EE8971F32379200A0EDBB /* MVTask.m in Sources */,
+				1EFBB7631F5C7A74005CAA42 /* MVFakePhotoViewController.m in Sources */,
+				1EF353341F18270800EBDD0F /* MVAdViewController.m in Sources */,
+				1E12DBE51F18FF6E0064BF8A /* MVPostViewController.m in Sources */,
+				1EFBB7771F5F1AC9005CAA42 /* MVProfileTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,7 +832,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -196,7 +842,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -236,7 +886,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -244,7 +896,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -271,25 +927,37 @@
 		};
 		1E818AA41EC7D260004571D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C64EDAA07F63E14EE405D8ED /* Pods-VK Likes and Followers.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7544MQP9KA;
 				INFOPLIST_FILE = "VK Likes and Followers/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mountain-viewer.VK-Likes-and-Followers";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		1E818AA51EC7D260004571D8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4AECDEAECBF3EE97E4111A0 /* Pods-VK Likes and Followers.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7544MQP9KA;
 				INFOPLIST_FILE = "VK Likes and Followers/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mountain-viewer.VK-Likes-and-Followers";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -312,6 +980,7 @@
 				1E818AA51EC7D260004571D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
